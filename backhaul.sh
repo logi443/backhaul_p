@@ -639,7 +639,7 @@ echo -e "\033[0m\033[32m"
 echo -e "Script Version: \033[33m${SCRIPT_VERSION}\033[32m"
 [[ -f "${config_dir}/backhaul_premium" ]] && \
 echo -e "Core Version: \033[33m$($config_dir/backhaul_premium -v)\033[32m"
-echo -e "by \033[33mMEYSAM\033[0m"
+echo -e "BY - \033[33mMEYSAM\033[0m"
 }
 display_server_info() {
 echo -e "\e[93m═══════════════════════════════════════════\e[0m"
